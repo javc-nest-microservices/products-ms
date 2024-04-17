@@ -16,7 +16,7 @@ async function bootstrap() {
       }
     }
   )
-  const logger = new Logger('Main')
+  const logger = new Logger('ProductsBootstrap')
   app.useGlobalPipes(
     new ValidationPipe({
       whitelist: true,
