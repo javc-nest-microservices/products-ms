@@ -7,3 +7,9 @@
 3. Create a `.env` file based on the `.env.template` file
 4. Execute prisma migration `yarn prisma migrate dev`
 5. Run the development server `yarn start:dev`
+
+
+## Docker production
+```
+docker build -f dockerfile.prod -t products-ms .
+```
